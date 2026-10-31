@@ -1,0 +1,21 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Installed dependencies and generated output
+**/node_modules/
+**/dist/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+
+# Local databases, notebook checkpoints, and source archives
+*.sqlite
+*.sqlite3
+*.db
+**/.ipynb_checkpoints/
+*.zip
